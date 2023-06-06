@@ -15,7 +15,8 @@ If one of available channel fails to send notification, another channel is autom
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+)
-2. Run `docker compose up -d` (the logs will be displayed in the current shell)
+2. Run `docker compose up -d` 
+2. Run `composer install` 
 3. Run `symfony serve -d` 
 4. Open `https://localhost` in your favorite web browser
 
