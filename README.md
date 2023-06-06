@@ -19,8 +19,7 @@ If one of available channel fails to send notification, another channel is autom
 3. Run `symfony serve -d` 
 4. Open `https://localhost` in your favorite web browser
 
-## Custom variables description
-###
+## Notification Providers
 Available notification providers :email;SMS;chat
 
 There is two way to send notifications.
@@ -36,6 +35,7 @@ NOTIFICATION_PROVIDERS_ARRAY=email;chat
 !!! You have to choose only one way !!!
 !!! If you complete the NOTIFICATION PROVIDERS leave the NOTIFICATION PROVIDERS ARRAY blank!!!
 
+## Custom variables description
 
 Set up notification providers you want to use:
 `NOTIFICATION_PROVIDERS`='email;SMS;chat'
